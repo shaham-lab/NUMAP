@@ -4,7 +4,7 @@
 
 [//]: # (    <img src="https://github.com/shaham-lab/SpectralNet/blob/main/figures/twomoons.png">)
 
-This is the official PyTorch implementation of NUMAP from the paper ["Generalizable Spectral Embedding with Applications to UMAP]().<br>
+This is the official PyTorch implementation of NUMAP from the paper ["Generalizable Spectral Embedding with Applications to UMAP"]().<br>
 
 [//]: # (## Installation)
 
@@ -39,12 +39,9 @@ You can read the code docs for more information and functionalities.<br>
 
 ## Running examples
 
-In order to run the model on the moon dataset, you can either run the file, or using the command-line command:<br>
-`python -m examples.reduce_moon`<br>
-This will run the model on the moon dataset and plot the results.
-
-The same can be done for the circles dataset:<br>
-`python -m examples.reduce_circles`<br>
+In order to run the model on the 2 Circles dataset, you can either run the file, or using the command-line command:<br>
+`python tests/run_numap.py`<br>
+This will run NUMAP and UMAP on the 2 Circles dataset and plot the results.
 
 
 
