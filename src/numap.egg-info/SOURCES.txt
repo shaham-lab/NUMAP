@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/numap/__init__.py
+src/numap/numap.py
+src/numap/numap_ft.py
+src/numap/utils.py
+src/numap.egg-info/PKG-INFO
+src/numap.egg-info/SOURCES.txt
+src/numap.egg-info/dependency_links.txt
+src/numap.egg-info/top_level.txt
+src/numap/umap_pytorch/__init__.py
+src/numap/umap_pytorch/data.py
+src/numap/umap_pytorch/main.py
+src/numap/umap_pytorch/model.py
+src/numap/umap_pytorch/modules.py
