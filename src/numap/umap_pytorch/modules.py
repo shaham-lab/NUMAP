@@ -47,8 +47,8 @@ def umap_loss(embedding_to, embedding_from, _a, _b, batch_size, negative_sample_
 
     # compute cross entropy
     (attraction_loss, repellant_loss, ce_loss) = compute_cross_entropy(
-        probabilities_graph.cuda(),
-        probabilities_distance.cuda(),
+        probabilities_graph.to(embedding_to.device), # .cuda(),
+        probabilities_distance.to(embedding_to.device), # .cuda(),
     )
     loss = torch.mean(ce_loss)
     return loss
