@@ -2,7 +2,7 @@ from src.numap import NUMAP
 from src.numap.utils import *
 from src.load_data import get_2circles
 import umap
-from src.metrics import Metrics
+from src.numap.metrics import Metrics
 
 numap = NUMAP(
     encoder=None,  # nn.Module, None for default
@@ -15,7 +15,7 @@ numap = NUMAP(
     use_se=True,
     use_residual_connections=True,
     learn_from_se=True,
-    use_grease=False,
+    use_grease=True,
 )
 
 # choose data
