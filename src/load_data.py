@@ -38,7 +38,7 @@ def get_2circles2D(n_samples=2000, noise=0.1, random_state=None):
     return torch.Tensor(X), y, '2circles2D'
 
 
-def get_2circles(n_samples=2000, noise=0.1, random_state=None):
+def get_2circles(n_samples=5000, noise=0.1, random_state=None):
     t1 = np.random.rand(n_samples // 2) * 2 * np.pi
     t2 = np.random.rand(n_samples // 2) * 2 * np.pi
     x1 = np.array([np.cos(t1), np.sin(t1), np.zeros(n_samples // 2)]).T
