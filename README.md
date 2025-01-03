@@ -2,9 +2,7 @@
 
 <p align="center">
 
-[//]: # (    <img src="https://github.com/shaham-lab/SpectralNet/blob/main/figures/twomoons.png">)
-
-This is the official PyTorch implementation of NUMAP from the paper ["Generalizable Spectral Embedding with Applications to UMAP"]().<br>
+This is the official PyTorch implementation of NUMAP, a new and generalizable UMAP implementation, from the paper ["Generalizable Spectral Embedding with Applications to UMAP"]().<br>
 
 [//]: # (## Installation)
 
@@ -13,6 +11,21 @@ This is the official PyTorch implementation of NUMAP from the paper ["Generaliza
 [//]: # (```bash)
 [//]: # (pip install spectralnet)
 [//]: # (```)
+
+NUMAP can be used to visualize many types of data in a low-dimensional space, while enabling a simple out-of-sample extension.
+One application of NUMAP is to **visualize time-series data**, and help understand the process in a given system.
+For example, the following figure shows the transition of a set of points from one state to another, using NUMAP.
+In a biological point of view, this can be viewed as a simplified simulation of the cellular differentiation process.
+
+<img src="figures\NUMAP_timesteps_transition_1color.png">
+
+The package is based on UMAP and GrEASE (Generalizable and Efficient Approximate Spectral Embedding).
+It is easy to use and can be used with any PyTorch dataset, on both CPU and GPU.
+The package also includes a test dataset and a test script to run the model on the 2 Circles dataset.
+
+The incorporation of GrEASE enables preservation of both **local and global structures** of the data, as UMAP,
+with the new capability of out-of-sample extension.
+<img src="figures\intro_fig_idsai_colored.png">
 
 ## Installation
 To install the package, simply use the following command:
