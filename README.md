@@ -17,15 +17,24 @@ One application of NUMAP is to **visualize time-series data**, and help understa
 For example, the following figure shows the transition of a set of points from one state to another, using NUMAP.
 In a biological point of view, this can be viewed as a simplified simulation of the cellular differentiation process.
 
+[//]: # (github)
 <img src="figures\NUMAP_timesteps_transition_1color.png">
 
-The package is based on UMAP and GrEASE (Generalizable and Efficient Approximate Spectral Embedding).
+[//]: # (pypi)
+[//]: # (<img src="https://github.com/shaham-lab/NUMAP/raw/main/figures/NUMAP_timesteps_transition_1color.png">)
+
+The package is based on UMAP and [**GrEASE (Generalizable and Efficient Approximate Spectral Embedding)**](https://github.com/shaham-lab/GrEASE).
 It is easy to use and can be used with any PyTorch dataset, on both CPU and GPU.
 The package also includes a test dataset and a test script to run the model on the 2 Circles dataset.
 
 The incorporation of GrEASE enables preservation of both **local and global structures** of the data, as UMAP,
 with the new capability of out-of-sample extension.
+
+[//]: # (github)
 <img src="figures\intro_fig_idsai_colored.png">
+    
+[//]: # (pypi)
+[//]: # (<img src="https://github.com/shaham-lab/NUMAP/raw/main/figures/intro_fig_idsai_colored.png">)
 
 ## Installation
 To install the package, simply use the following command:
