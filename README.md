@@ -2,7 +2,10 @@
 
 <p align="center">
 
-This is the official PyTorch implementation of NUMAP, a new and generalizable UMAP implementation, from the paper ["Generalizable Spectral Embedding with Applications to UMAP"]().<br>
+[//]: # (This is the official PyTorch implementation of NUMAP, a new and generalizable UMAP implementation, from the paper ["Generalizable Spectral Embedding with Applications to UMAP"]&#40;&#41;.<br>)
+This is the official PyTorch implementation of NUMAP, a new and generalizable UMAP implementation.
+
+See our [GitHub repository](https://github.com/shaham-lab/NUMAP) for more information and the latest updates.
 
 [//]: # (## Installation)
 
